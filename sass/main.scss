@@ -1,0 +1,46 @@
+@import"./allblocks/allblocks";
+@import"./fonts";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+body {
+    font-family: 'Space';
+    overflow-x: hidden;
+}
+
+.button_end {
+    margin-top: 40px;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.btn {
+    background: #FCB72B;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    border: none;
+    padding: 14px 39px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: black;
+    transform: scale(1.1);
+}

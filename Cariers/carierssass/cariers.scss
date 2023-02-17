@@ -1,0 +1,32 @@
+@import"./allblocks/allblocks.scss";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+body {
+    font-family: Space;
+    overflow-x: hidden;
+}
+
+@media (max-width:568px) {
+    .btn12 {
+        background: #FCB72B;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        border: none;
+        padding: 14px 108px;
+        color: #FFFFFF;
+        transition: .3s;
+    }
+}
