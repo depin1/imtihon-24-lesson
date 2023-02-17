@@ -22,6 +22,18 @@ article {
     height: 191px;
     background: #F2F5F9;
     padding: 32px 0 32px 40px;
+    transition: .3s;
+}
+
+.article_box2 {
+    margin-bottom: 160px;
+}
+
+.article_chilled_1:hover {
+    transform: scale(1.1);
+    background-color: #93ffdbb2;
+    border-radius: 30px;
+    border: 5px rgb(0, 0, 0);
 }
 
 .article_chilled_2 {
@@ -30,6 +42,26 @@ article {
     background: #F2F5F9;
     padding: 32px 0 32px 40px;
     margin-top: 16px;
+}
+
+.article_chilled_2 {
+    transition: .3s;
+}
+
+.article_chilled_2:hover {
+    transform: scale(1.1);
+    background-color: rgba(33, 184, 33, 0.697);
+    border-radius: 30px;
+}
+
+.article_chilled_3 {
+    transition: .3s;
+}
+
+.article_chilled_3:hover {
+    transform: scale(1.1);
+    background-color: rgba(211, 129, 35, 0.697);
+    border-radius: 30px;
 }
 
 .chilled_title {
