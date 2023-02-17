@@ -36,6 +36,15 @@
     padding-top: 27px;
 }
 
+.center__box_title {
+    transition: .4s;
+}
+
+.center__box_title:hover {
+    color: #FCB72B;
+    transform: scale(1.1);
+}
+
 .box_hr {
     position: relative;
     top: 150px;
