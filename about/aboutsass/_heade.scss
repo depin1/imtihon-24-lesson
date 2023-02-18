@@ -40,7 +40,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    padding: 72px 0;
+    padding: 72px 31px 0 0;
     position: relative;
 }
 
@@ -89,12 +89,12 @@ nav {
         flex-direction: column;
         position: absolute;
         left: 0;
-        top: 76px;
+        top: 74px;
         max-width: 256px;
         height: 544px;
         background: #333A44;
         padding: 0 0 24px 0;
-        transform: translateY(-400%);
+        transform: translateX(-400%);
         transition: .5s;
         z-index: 10;
     }
@@ -107,7 +107,7 @@ nav {
         padding: 64px 112px 0 0;
     }
     .checkbox_header:checked~.header__box_right {
-        transform: translateY(0);
+        transform: translateX(0);
     }
     .checkbox_header:checked~.label {
         display: none;
@@ -136,16 +136,7 @@ nav {
     .header_end {
         text-align: center;
     }
-    // .header_image {
-    //     position: unset;
-    //     left: 140px;
-    //     top: 8px;
-    // }
     .header__box_right {
         top: 62px;
     }
-    // .header_image {
-    //     position: absolute;
-    //     left: 150px;
-    // }
 }
